@@ -28,7 +28,7 @@ function ContactFooter() {
         <div className=" uppercase text-xs flex items-center gap-5 lg:gap-10 mt-5">
           <a href="https://www.instagram.com/joyicecreamsofficial/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">instagram</a>
           <a href="https://www.facebook.com/JoyIceCreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">facebook</a>
-          <a href="https://twitter.com/joyicecreams" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">twitter</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">twitter</a>
           <a href="https://www.pinterest.com/joyicecreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">pinterest</a>
         </div>
         <h1
