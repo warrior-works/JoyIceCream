@@ -28,13 +28,17 @@ export const HyperFocusText: React.FC<HyperFocusTextProps> = ({
                 <span
                     key={index}
                     onClick={() => setFocusIndex(index)}
+                    onMouseEnter={() => setFocusIndex(index)}
                     style={{
                     color: index === focusIndex ? focusColor : blurColor,
                     opacity: opacity,
                     cursor: 'pointer',
-                    transition: 'opacity 0.2s ease',
+                    transition: 'all 0.2s ease',
+                    fontWeight: index === focusIndex ? 'bold' : 'normal',
+                    textShadow: index === focusIndex ? `0 0 8px ${focusColor}40` : 'none',
+                    transform: index === focusIndex ? 'scale(1.05)' : 'scale(1)',
                     }}
-                    className="mr-2"
+                    className="mr-2 inline-block"
                 >
                     {word}
                 </span>
