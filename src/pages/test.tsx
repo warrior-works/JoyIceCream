@@ -8,16 +8,3 @@ I'd be happy to help! Could you clarify what features you'd like to add? For exa
 - **Favorites**: Track user preferences?
 
 What specific functionality would be most useful for your ice cream app?
-// Seasonal flavors feature
-const [seasonalFlavors, setSeasonalFlavors] = useState<string[]>([]);
-
-const getSeasonalFlavors = (season: 'spring' | 'summer' | 'fall' | 'winter') => {
-    const flavors: Record<string, string[]> = {
-        spring: ['Strawberry Cheesecake', 'Mint Blossom', 'Lemon Sorbet'],
-        summer: ['Watermelon', 'Coconut Lime', 'Berry Blast'],
-        fall: ['Pumpkin Spice', 'Caramel Apple', 'Cinnamon Roll'],
-        winter: ['Peppermint Bark', 'Gingerbread', 'Hot Chocolate']
-    };
-    
-    setSeasonalFlavors(flavors[season]);
-};
