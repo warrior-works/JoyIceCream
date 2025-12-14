@@ -119,3 +119,74 @@ const IceCreamFlow: React.FC = () => {
 };
 
 export default IceCreamFlow;
+
+const IceCreamStyled: React.FC = () => {
+    const [selectedColor, setSelectedColor] = useState<string>('#FF69B4');
+
+    const iceCreamColors = [
+        { name: 'Strawberry', color: '#FF69B4' },
+        { name: 'Vanilla', color: '#F3E5AB' },
+        { name: 'Chocolate', color: '#8B4513' },
+        { name: 'Mint', color: '#98FF98' },
+        { name: 'Pistachio', color: '#93C572' },
+        { name: 'Cookie Dough', color: '#D2B48C' },
+    ];
+
+    return (
+        <div style={{
+            minHeight: '100vh',
+            background: 'linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+            padding: '60px 20px',
+            fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+        }}>
+            <div style={{
+                maxWidth: '600px',
+                width: '100%',
+                background: 'rgba(255, 255, 255, 0.95)',
+                borderRadius: '30px',
+                padding: '50px',
+                boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
+                backdropFilter: 'blur(10px)',
+            }}>
+                <h1 style={{ color: '#333', marginBottom: '10px', fontSize: '32px' }}>🍦 Ice Cream Picker</h1>
+                <p style={{ color: '#666', marginBottom: '40px' }}>Select your favorite flavor</p>
+                
+                <div style={{
+                    width: '220px',
+                    height: '220px',
+                    borderRadius: '50%',
+                    backgroundColor: selectedColor,
+                    margin: '0 auto 40px',
+                    boxShadow: `0 15px 40px ${selectedColor}40`,
+                    transition: 'all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)',
+                }} />
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px' }}>
+                    {iceCreamColors.map((flavor) => (
+                        <button
+                            key={flavor.name}
+                            onClick={() => setSelectedColor(flavor.color)}
+                            style={{
+                                backgroundColor: flavor.color,
+                                border: selectedColor === flavor.color ? '3px solid #333' : 'none',
+                                borderRadius: '15px',
+                                padding: '12px',
+                                cursor: 'pointer',
+                                fontWeight: '600',
+                                fontSize: '12px',
+                                transition: 'all 0.3s ease',
+                                transform: selectedColor === flavor.color ? 'translateY(-5px)' : 'translateY(0)',
+                                boxShadow: selectedColor === flavor.color ? '0 10px 25px rgba(0,0,0,0.2)' : '0 4px 12px rgba(0,0,0,0.1)',
+                            }}
+                        >
+                            {flavor.name}
+                        </button>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+};
