@@ -118,21 +118,6 @@ const IceCreamFlow: React.FC = () => {
     );
 };
 
-export default IceCreamFlow;
 
-<div style={{ color: 'red', padding: '20px' }}>
-    <h1>Red Color</h1>
-<div style={{ 
-    backgroundColor: 'red', 
-    padding: '20px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    fontSize: '80px'
-}}>
-    🍦
-</div>
-);
-};
 
 export default IceCreamFlow;
