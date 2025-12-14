@@ -132,3 +132,7 @@ export default IceCreamFlow;
 }}>
     🍦
 </div>
+);
+};
+
+export default IceCreamFlow;
