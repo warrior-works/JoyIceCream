@@ -23,3 +23,10 @@ export default function IceCreamText() {
         </div>
     );
 }
+<div style={{ marginTop: '40px', maxWidth: '600px', margin: '40px auto' }}>
+    <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#333' }}>
+        Discover the perfect scoop of happiness! Our premium ice cream is made with the finest ingredients, 
+        crafted to bring joy to every bite. From classic vanilla to exotic flavors, we have something 
+        for everyone. Treat yourself today and experience the cool, creamy difference!
+    </p>
+</div>
