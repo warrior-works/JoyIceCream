@@ -8,7 +8,7 @@ export default function IceCreamText() {
                 fontSize: '48px', 
                 fontWeight: 'bold' 
             }}>
-                🍦 Ice Cream 🍦
+                🌈 🍦 Ice Cream 🍦 🌈
             </h1>
             <p style={{ 
                 background: 'linear-gradient(90deg, #ff69b4, #00bfff, #32cd32, #ffd700)',
@@ -16,7 +16,7 @@ export default function IceCreamText() {
                 WebkitTextFillColor: 'transparent',
                 fontSize: '24px' 
             }}>
-                Enjoy delicious ice cream!
+                🎨 Enjoy delicious ice cream! 🎨
             </p>
         </div>
     );
