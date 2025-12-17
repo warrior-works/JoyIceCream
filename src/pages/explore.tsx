@@ -87,4 +87,3 @@ export default function ExplorePage() {
         </div>
     );
 }
-<div className="mt-8">
