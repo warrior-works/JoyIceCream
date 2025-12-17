@@ -114,11 +114,3 @@ export default function ExplorePage() {
     <div className="flex flex-col space-y-4">
         {filtered.map((item) => (
             <div key={item.id} className="flex items-center">
-                <span className="mr-2">{item.name}:</span>
-                <span style={{ color: item.flavor === 'vanilla' ? 'yellow' : item.flavor === 'chocolate' ? 'brown' : 'red' }}>
-                    {item.flavor}
-                </span>
-            </div>
-        ))}
-    </div>
-</div>
