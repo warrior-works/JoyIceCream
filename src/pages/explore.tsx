@@ -88,24 +88,3 @@ export default function ExplorePage() {
     );
 }
 <div className="mt-8">
-    <h2 className="text-2xl font-bold mb-4">Add Your Review</h2>
-    <form
-        onSubmit={(e) => {
-            e.preventDefault();
-            // Handle review submission logic here
-        }}
-        className="flex flex-col space-y-4"
-    >
-        <textarea
-            placeholder="Write your review..."
-            className="border rounded-lg p-2"
-            rows={4}
-        />
-        <button
-            type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg"
-        >
-            Submit Review
-        </button>
-    </form>
-</div>
