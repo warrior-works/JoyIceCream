@@ -109,8 +109,3 @@ export default function ExplorePage() {
         </button>
     </form>
 </div>
-<div className="mt-8">
-    <h2 className="text-2xl font-bold mb-4">Ice Cream Text Color</h2>
-    <div className="flex flex-col space-y-4">
-        {filtered.map((item) => (
-            <div key={item.id} className="flex items-center">
