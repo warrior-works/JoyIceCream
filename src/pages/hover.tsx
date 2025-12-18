@@ -20,13 +20,3 @@ export default function HoverPage() {
         </div>
     );
 }
-
-export const hoverStyles = {
-    container: {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-        backgroundColor: '#f5f5f5',
-    },
-};
