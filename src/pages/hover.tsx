@@ -29,10 +29,4 @@ export const hoverStyles = {
         height: '100vh',
         backgroundColor: '#f5f5f5',
     },
-    emoji: {
-        fontSize: '80px',
-        cursor: 'pointer',
-        transition: 'all 0.3s ease',
-        userSelect: 'none',
-    },
 };
