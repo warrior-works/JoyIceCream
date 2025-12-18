@@ -20,3 +20,19 @@ export default function HoverPage() {
         </div>
     );
 }
+
+export const hoverStyles = {
+    container: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        backgroundColor: '#f5f5f5',
+    },
+    emoji: {
+        fontSize: '80px',
+        cursor: 'pointer',
+        transition: 'all 0.3s ease',
+        userSelect: 'none',
+    },
+};
