@@ -8,12 +8,6 @@ export default function HoverPage() {
             <div
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                style={{
-                    fontSize: isHovered ? '120px' : '80px',
-                    cursor: 'pointer',
-                    transition: 'all 0.3s ease',
-                    transform: isHovered ? 'scale(1.5) rotate(5deg)' : 'scale(1) rotate(0deg)',
-                }}
             >
                 🍦
             </div>
