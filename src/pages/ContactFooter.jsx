@@ -27,7 +27,6 @@ function ContactFooter() {
         </h1>
         <div className=" uppercase text-xs flex items-center gap-5 lg:gap-10 mt-5">
           <a href="https://www.instagram.com/joyicecreamsofficial/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">instagram</a>
-          <a href="https://www.facebook.com/JoyIceCreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">facebook</a>
           </div>
         <h1
           className={`${signatie.className} text-2xl lg:text-4xl mt-16 font-semibold`}
