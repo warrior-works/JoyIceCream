@@ -25,8 +25,6 @@ function ContactFooter() {
           Discover happiness in every purchase. Shop now and make every moment
           joyful!
         </h1>
-        <div className=" uppercase text-xs flex items-center gap-5 lg:gap-10 mt-5">
-          </div>
 
       </div>
 
