@@ -21,10 +21,7 @@ function ContactFooter() {
         >
           bringing joy to every moment with love
         </h1>
-        <h1 className=" w-[23em] text-center uppercase text-sm font-semibold">
-          Discover happiness in every purchase. Shop now and make every moment
-          joyful!
-        </h1>
+
 
       </div>
 
