@@ -16,12 +16,6 @@ function ContactFooter() {
   return (
     <div className=" w-full h-auto bg-gradient-to-b from-red-900 to-red-800 py-10 flex items-center justify-center text-white overflow-hidden">
       <div className=" flex flex-col gap-5 items-center px-7 lg:px-0 text-white">
-        <h1
-          className={` text-6xl ${thunder.className} font-semibold text-center uppercase text-[3rem] lg:w-[30rem]`}
-        >
-          bringing joy to every moment with love
-        </h1>
-
 
       </div>
 
