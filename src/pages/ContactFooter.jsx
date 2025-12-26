@@ -30,7 +30,6 @@ function ContactFooter() {
         <h1
           className={`${signatie.className} text-2xl lg:text-4xl mt-16 font-semibold`}
         >
-          Shri LC Java
         </h1>
       </div>
 
