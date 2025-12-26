@@ -29,8 +29,7 @@ function ContactFooter() {
           <a href="https://www.instagram.com/joyicecreamsofficial/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">instagram</a>
           <a href="https://www.facebook.com/JoyIceCreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">facebook</a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">twitter</a>
-          <a href="https://www.pinterest.com/joyicecreams/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all">pinterest</a>
-        </div>
+          </div>
         <h1
           className={`${signatie.className} text-2xl lg:text-4xl mt-16 font-semibold`}
         >
